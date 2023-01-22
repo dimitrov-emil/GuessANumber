@@ -31,10 +31,10 @@ function guessANumber() {
             }
 
             if (guess !== computerGuess && counter > 5) {
-                console.log(`Better luck next time!`);
+                console.log(`Game over! Better luck next time!`);
                 return readline.close();
-            }
 
+            }
 
         });
     }
