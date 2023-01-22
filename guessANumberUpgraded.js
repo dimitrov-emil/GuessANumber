@@ -20,21 +20,31 @@ function guessANumber() {
                     return readline.close();
                 } else if (guess <= computerGuess) {
                     console.log(`Nah, it's a bit low!`);
+
+                    if (guess !== computerGuess && counter == 7) {
+                        console.log(`Game over! Better luck next time!`);
+                        return readline.close();
+                    }
+
                     recursiveAsincReadLine();
                 } else if (guess >= computerGuess) {
                     console.log(`Wow! Too high!`);
+
+                    if (guess !== computerGuess && counter > 5) {
+                        console.log(`Game over! Better luck next time!`);
+                        return readline.close();
+                    }
+
                     recursiveAsincReadLine();
                 }
+
+
             } else {
                 console.log("What was that?! Try again...");
                 recursiveAsincReadLine();
             }
 
-            if (guess !== computerGuess && counter > 5) {
-                console.log(`Game over! Better luck next time!`);
-                return readline.close();
 
-            }
 
         });
     }
