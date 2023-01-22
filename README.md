@@ -1,5 +1,5 @@
 # Guess the Number
-my First Project, Soft Uni 
+my First Project @ Soft Uni 
 
 ![guess the number](https://user-images.githubusercontent.com/122853075/213916197-c84d985c-4652-49bf-a1dd-6b4c7a6ad333.jpg)
 
