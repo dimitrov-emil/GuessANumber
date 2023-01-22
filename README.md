@@ -1,4 +1,4 @@
-# GuessANumber
+# Guess the Number
 my First Project, Soft Uni 
 
 A simple game where one has to gues a Number between 1 and 100, randomly chosen by the computer.
